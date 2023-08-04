@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <title>Newsletter Sign-Up Form With Success Message</title>
+
+  <!-- Icon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+
+  <!-- Google Font -->
+
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- Sign-up form start -->
+  <div class="container">
+    <header>
+      <picture>
+        <source media="(min-width:768px )" srcset="assets/svg/illustration-sign-up-desktop.svg">
+        <img src="assets/svg/illustration-sign-up-mobile.svg" alt="">
+      </picture>
+    </header>
+
+    <main>
+      <h1 class="title">Stay updated!</h1>
+      <p class="desc">Join 60,000+ product managers receiving monthly updates on:</p>
+      <ul>
+        <li>
+          <img src="assets/svg/icon-list.svg" alt="">
+          <p>Product discovery and building what matters</p>
+        </li>
+        <li>
+          <img src="assets/svg/icon-list.svg" alt="">
+          <p>Measuring to ensure updates are a success</p>
+        </li>
+        <li>
+          <img src="assets/svg/icon-list.svg" alt="">
+          <p>And much more!</p>
+        </li>
+      </ul>
+    </main>
+
+    <footer>
+      <form>
+        <div>
+          <h6>Email address</h6>
+          <label for="email" class="email-label"></label>
+        </div>
+        <input type="email" class="email" placeholder="email@company.com" autocomplete="off">
+        <button class="formsubmit" id="formsubmit" type="submit">Subscribe to monthly newsletter</button>
+      </form>
+    </footer>
+
+  </div>
+  <!-- Sign-up form end -->
+
+  <!-- Success message start -->
+  <div class="card">
+    <div>
+      <img src="assets/svg/icon-success.svg" alt="">
+      <h1>Thanks for subscribing!</h1>
+      <p>
+        A confirmation email has been sent to <strong>ash@loremcompany.com</strong>.
+        Please open it and click the button inside to confirm your subscription.
+      </p>
+    </div>
+    <button href="#" class="dismiss__button" id="dismiss__button">Dismiss message</button>
+  </div>
+  <!-- Success message end -->
+
+  <!-- Custom JavaScript -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
