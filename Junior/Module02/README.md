@@ -32,9 +32,8 @@ Users should be able to:
 ### Links
 
 - Challenge : https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q
-- Solution :
-- Live Site : https://satryandi-miniproject19.netlify.app/
-
+- Solution : https://www.frontendmentor.io/solutions/age-calculator-app-qT9l24nRQR
+- Live Site : https://satryandi.github.io/FrontendMentor/Junior/Module02/index.html
 ## My process
 
 ### Built with
