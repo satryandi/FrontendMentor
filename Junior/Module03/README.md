@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - Challenge : https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl
-- Solution : 
+- Solution : https://www.frontendmentor.io/solutions/news-homepage-ITm49Vcswx
 - Live Site : https://satryandi.github.io/FrontendMentor/Junior/Module03/index.html
 
 ## My process
