@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <title>News Homepage</title>
+
+  <!-- Icon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+  <nav>
+    <div class="logo_wrapper">
+      <img src="assets/svg/logo.svg" alt="logo W">
+    </div>
+
+    <button class="btn_show">
+      <img src="assets/svg/icon-menu.svg" alt="menu icon">
+    </button>
+
+    <div class="menuclose_wrapper">
+      <button class="btn_close">
+        <img src="assets/svg/icon-menu-close.svg" alt="close icon">
+      </button>
+
+      <div class="links_wrapper">
+        <a href="#">Home</a>
+        <a href="#">New</a>
+        <a href="#">Popular</a>
+        <a href="#">Trending</a>
+        <a href="#">Categories</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <header class="header_wrapper">
+      <picture>
+        <source media="(min-width:768px)" srcset="assets/images/image-web-3-desktop.jpg">
+        <img src="assets/images/image-web-3-mobile.jpg" alt="">
+      </picture>
+    </header>
+
+    <main class="main_wrapper">
+      <section class="tittle_wrapper">
+        <p class="title">The Bright Future of Web 3.0?</p>
+      </section>
+      <section class="desc_wrapper">
+        <p class="desc">
+          We dive into the next evolution of the web that
+          claims to put the power of the platforms back into the hands
+          of the people. But is it really fulfilling its promise?
+        </p>
+        <button class="btn_read">Read more</button>
+      </section>
+    </main>
+
+    <aside class="aside_wrapper">
+      <p class="aside_title">New</p>
+      <article class="article_wrapper">
+        <p class="article_title">Hydrogen VS Electric Cars</p>
+        <p class="article_desc">Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </article>
+      <article class="article_wrapper">
+        <p class="article_title">The Downsides of AI Artistry</p>
+        <p class="article_desc">What are the possible adverse effects of on-demand AI image generation?</p>
+      </article>
+      <article class="article_wrapper">
+        <p class="article_title">Is VC Funding Drying Up?</p>
+        <p class="article_desc">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </article>
+    </aside>
+
+    <footer class="footer_wrapper">
+      <article class="footer_article">
+        <div class="footerimg_wrapper">
+          <img src="assets/images/image-retro-pcs.jpg" alt="">
+        </div>
+        <div class="text_wrapper">
+          <p class="footer_number">01</p>
+          <p class="footer_title">Reviving Retro PCs</p>
+          <p class="footer_desc">What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </article>
+
+      <article class="footer_article">
+        <div class="footerimg_wrapper">
+          <img src="assets/images/image-top-laptops.jpg" alt="">
+        </div>
+        <div class="text_wrapper">
+          <p class="footer_number">02</p>
+          <p class="footer_title">Top 10 Laptops of 2022</p>
+          <p class="footer_desc">Our best picks for various needs and budgets.</p>
+        </div>
+      </article>
+
+      <article class="footer_article">
+        <div class="footerimg_wrapper">
+          <img src="assets/images/image-gaming-growth.jpg" alt="">
+        </div>
+        <div class="text_wrapper">
+          <p class="footer_number">03</p>
+          <p class="footer_title">The Growth of Gaming</p>
+          <p class="footer_desc">How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </article>
+    </footer>
+  </div>
+
+  <script src="src/js/main.js"></script>
+</body>
+
+</html>
