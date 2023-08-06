@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+/* CSS Reset */
+/*
+1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/*
+2. Remove default margin
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*
+3. Allow percentage-based heights in the application
+*/
+html,
+body {
+    height: 100%;
+}
+
+/*
+Typographic tweaks!
+4. Add accessible line-height
+5. Improve text rendering
+*/
+body {
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*
+6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+    max-width: 100%;
+}
+
+/*
+7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/*
+8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.1;
+}
+
+/* General Styling */
+
+
+
+:root {
+    --color-red: hsl(1, 90%, 64%);
+    --color-blue: hsl(219, 85%, 26%);
+
+    --color-white: hsl(0, 0%, 100%);
+    --color-verylightgrayishblue: hsl(210, 60%, 98%);
+    --color-lightgrayishblue1: hsl(211, 68%, 94%);
+    --color-lightgrayishblue2: hsl(205, 33%, 90%);
+    --color-grayishblue: hsl(219, 14%, 63%);
+    --color-darkgrayishblue: hsl(219, 12%, 42%);
+    --color-verydarkblue: hsl(224, 21%, 14%);
+
+    --fontsize-paragraph: 16px;
+    --fontfamily: 'Plus Jakarta Sans', sans-serif;
+    --fontweight500: 500;
+    --fontweight800: 800;
+}
+
+body {
+    color: var(--color-verydarkblue);
+    background-color: var(--color-verylightgrayishblue);
+    font-family: var(--fontfamily);
+    font-weight: var(--fontweight500);
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.container {
+    background-color: var(--color-white);
+    padding: 1rem 1rem 0 1rem;
+    margin: 1rem 1rem;
+    border-radius: .5rem;
+    height: min-content;
+}
+
+.notif_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.notif_title {
+    font-weight: var(--fontweight800);
+}
+
+.notif_total {
+    font-size: 12px;
+    font-weight: var(--fontweight500);
+    color: var(--color-white);
+    background-color: var(--color-blue);
+    padding: 5px 11px;
+    border-radius: .4rem;
+    margin-left: .5rem;
+}
+
+.notif_read {
+    font-size: 12px;
+    border: none;
+    background-color: inherit;
+    color: var(--color-grayishblue);
+}
+
+.notif_read:hover {
+    cursor: pointer;
+    color: var(--color-blue);
+}
+
+.user_wrapper {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.user_wrapper:last-child {
+    margin-bottom: 0;
+}
+
+.unread {
+    border-radius: .5rem;
+    background-color: var(--color-verylightgrayishblue);
+}
+
+.avatar_wrapper {
+    flex-basis: 10%;
+    margin-right: 1rem;
+}
+
+.desc_wrapper {
+    font-size: 10px;
+    flex-basis: 90%;
+    color: var(--color-darkgrayishblue);
+}
+
+.notif_photo {
+    flex-basis: 10%;
+    justify-self: end;
+    margin-left: 1rem;
+}
+
+.user_name {
+    color: var(--color-verydarkblue);
+    font-weight: var(--fontweight800);
+}
+
+.user_name:hover {
+    cursor: pointer;
+    color: var(--color-blue);
+}
+
+.notif_reacted {
+    font-weight: var(--fontweight800);
+}
+
+.notif_reacted:hover {
+    cursor: pointer;
+    color: var(--color-blue);
+}
+
+.notif_dots {
+    height: 8px;
+    width: 8px;
+    background-color: var(--color-red);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: .1rem;
+}
+
+.notif_time {
+    color: var(--color-grayishblue);
+}
+
+.notif_group {
+    color: var(--color-blue);
+    font-weight: var(--fontweight800);
+}
+
+.notif_group:hover {
+    cursor: pointer;
+}
+
+.user_message {
+    border: 1px solid var(--color-lightgrayishblue2);
+    padding: .8rem;
+    border-radius: .3rem;
+}
+
+.user_message:hover {
+    background-color: var(--color-lightgrayishblue1);
+    cursor: pointer;
+}
+
+
+@media (min-width:375px) {
+    .container {
+        max-width: 80vw;
+    }
+}
+
+@media (min-width:425px) {
+    .container {
+        max-width: 75vw;
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 70vw;
+    }
+}
+
+@media (min-width:1024px) {
+    .container {
+        max-width: 65vw;
+    }
+}
+
+@media (min-width:1440px) {
+    .container {
+        max-width: 60vw;
+    }
+}
