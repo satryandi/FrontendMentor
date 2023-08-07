@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Challenge : https://www.frontendmentor.io/challenges/expenses-chart-component-e7yJBUdjwt
-- Solution : 
+- Solution : https://www.frontendmentor.io/solutions/expenses-chart-component-Bqo1V-Y1Lt
 - Live Site : https://satryandi.github.io/FrontendMentor/Junior/Module06/index.html
 
 ## My process
