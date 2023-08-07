@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Challenge : https://www.frontendmentor.io/challenges/interactive-card-details-form-XpS8cKZDWw
-- Solution : 
+- Solution : https://www.frontendmentor.io/solutions/interactive-card-details-form-6hlFW2Ji8H
 - Live Site : https://satryandi.github.io/FrontendMentor/Junior/Module05/index.html
 
 ## My process
