@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+:root {
+    --color-white: hsl(0, 0%, 98%);
+    --color-gray: hsl(0, 0%, 41%);
+    --color-black: hsl(0, 0%, 8%);
+    --color-blackk: hsla(0, 0%, 8%, .6);
+
+    --font-family: 'Epilogue', sans-serif;
+    --font-size-paragraph: 18px;
+    --font-weight500: 500;
+    --font-weight700: 700;
+}
+
+/* CSS Reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: var(--font-family);
+    -webkit-font-smoothing: antialiased;
+
+    min-height: 100vh;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* General Styling */
+
+/* Width & Height */
+.drop {
+    width: 65vw;
+}
+
+.drop {
+    min-height: 100vh;
+}
+
+.button_wrapper button {
+    width: 100%;
+}
+
+/* Padding & Margin */
+
+.drop {
+    padding: 1rem 1rem 1rem 1.5rem;
+}
+
+.main_nav,
+.content_wrapper,
+.btn_learn {
+    padding: 1rem;
+}
+
+.button_wrapper button {
+    padding: .7rem;
+}
+
+.dropdowns {
+    padding: 1.5rem 2rem 0;
+}
+
+.dropdown:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+/* Text Align */
+.content {
+    text-align: center;
+}
+
+/* Line Height */
+.description {
+    line-height: 1.5rem;
+}
+
+/* List Style */
+li {
+    list-style: none;
+}
+
+/* Font Size */
+.title {
+    font-size: 35px;
+}
+
+/* Font Weight */
+.title,
+.dropdown_btn:hover,
+.dropdown:hover,
+.button_wrapper button:hover,
+.dropdown_menu:nth-child(3):hover,
+.dropdown_menu:last-child:hover {
+    font-weight: var(--font-weight700);
+}
+
+/* Font Color */
+.title,
+.dropdown_btn:hover,
+.dropdown:hover,
+.button_wrapper button:hover,
+.dropdown_menu:nth-child(3):hover,
+.dropdown_menu:last-child:hover {
+    color: var(--color-black);
+}
+
+.dropdown_btn,
+.dropdown_menu,
+.button_wrapper button,
+.description {
+    color: var(--color-gray);
+}
+
+.btn_learn {
+    color: var(--color-white);
+}
+
+/* Background Color */
+.main-nav {
+    background-color: var(--color-white);
+}
+
+.btn_learn {
+    background-color: var(--color-black);
+}
+
+button {
+    background-color: inherit;
+}
+
+/* Border */
+button {
+    border: none;
+}
+
+.button_wrapper .btn_register {
+    border: 1px solid var(--color-gray);
+}
+
+/* Cursor */
+button,
+.dropdown:hover,
+.dropdown_menu:nth-child(3):hover,
+.dropdown_menu:last-child:hover {
+    cursor: pointer;
+}
+
+/* Border Radius */
+.btn_learn {
+    border-radius: 1rem;
+}
+
+.button_wrapper .btn_register {
+    border-radius: .7rem;
+}
+
+/* Display */
+.main_nav,
+.drop,
+.dropdown_wrapper,
+.card,
+.content_wrapper,
+.content,
+.clients {
+    display: flex;
+}
+
+.button_wrapper button {
+    display: block;
+}
+
+.drop,
+.dropdowns {
+    display: none;
+}
+
+/* Flex Direction */
+.drop,
+.dropdown_wrapper,
+.card,
+.content_wrapper,
+.content {
+    flex-direction: column;
+}
+
+/* Justify Content */
+.main_nav {
+    justify-content: space-between;
+}
+
+/* Align Items */
+.content,
+.clients {
+    align-items: center;
+}
+
+.close_wrapper {
+    align-self: self-end;
+}
+
+/* Gap */
+.content {
+    gap: 1rem;
+}
+
+.drop,
+.dropdown_wrapper,
+.card,
+.clients {
+    gap: 1.5rem;
+}
+
+.content_wrapper {
+    gap: 3.5rem;
+}
+
+/* Position */
+.main_nav {
+    position: sticky;
+}
+
+.drop {
+    position: absolute;
+}
+
+/* Position Direction */
+.main_nav,
+.drop {
+    top: 0;
+}
+
+.drop {
+    right: 0;
+}
+
+@media(min-width :768px) {
+
+    /* Width & Height */
+    .container {
+        width: 100vw;
+    }
+
+    .card {
+        width: 65%;
+    }
+
+    .drop {
+        width: 100%;
+    }
+
+    .button_wrapper button {
+        width: 50%;
+    }
+
+    .hero_wrapper img {
+        width: 100%;
+    }
+
+    .hero_wrapper {
+        width: 100%;
+    }
+
+    .drop {
+        min-height: max-content;
+    }
+
+    /* Padding & Margin */
+
+    .drop {
+        padding: 0;
+    }
+
+    .main_nav,
+    .content_wrapper,
+    .btn_learn {
+        padding: 1rem;
+    }
+
+    .button_wrapper button,
+    .dropdown {
+        padding: .5rem;
+    }
+
+    .dropdowns {
+        padding: 1rem;
+    }
+
+    .dropdown:not(:last-child) {
+        margin-bottom: 1rem;
+    }
+
+    /* Text Align */
+    .content {
+        text-align: start;
+    }
+
+    /* Font Size */
+    .title {
+        font-size: 45px;
+    }
+
+    /* Display */
+    .container,
+    .main_nav,
+    .drop,
+    .dropdown_wrapper,
+    .card,
+    .content_wrapper,
+    .content,
+    .clients,
+    .button_wrapper {
+        display: flex;
+    }
+
+
+    .show_wrapper,
+    .close_wrapper {
+        display: none;
+    }
+
+    /* Flex Direction */
+    .drop,
+    .dropdown_wrapper {
+        flex-direction: row;
+    }
+
+    .content_wrapper,
+    .content {
+        flex-direction: column;
+    }
+
+    .card {
+        flex-direction: row-reverse;
+    }
+
+    /* Flex Basis */
+    .dropdown_wrapper,
+    .button_wrapper {
+        flex-basis: 50%;
+    }
+
+    /* Justify Content */
+    .main_nav {
+        justify-content: space-between;
+    }
+
+    .container {
+        justify-content: center;
+    }
+
+    .content_wrapper,
+    .content {
+        justify-content: space-between;
+    }
+
+    /* Align Items */
+    .container,
+    .main_nav,
+    .drop {
+        align-items: center;
+    }
+
+    .content {
+        align-items: start;
+    }
+
+    /* Gap */
+    .main_nav,
+    .content,
+    .dropdown_wrapper {
+        gap: 1rem;
+    }
+
+    .drop,
+    .card,
+    .clients {
+        gap: 1.5rem;
+    }
+
+    .content_wrapper {
+        gap: 3.5rem;
+    }
+
+    /* Position */
+    .main_nav {
+        position: sticky;
+    }
+
+    .drop {
+        position: static;
+    }
+
+    .dropdowns {
+        position: absolute;
+    }
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <title>Intro Section With Dropdown Navigation</title>
+
+  <!-- Icon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="src/css/styles.css">
+</head>
+
+<body>
+  <nav class="main_nav">
+    <div class="logo_wrapper">
+      <img src="assets/svg/logo.svg" alt="">
+    </div>
+    <div class="show_wrapper">
+      <button class="show">
+        <img src="assets/svg/icon-menu.svg" alt="">
+      </button>
+    </div>
+    <div class="drop">
+      <div class="close_wrapper">
+        <button class="close">
+          <img src="assets/svg/icon-close-menu.svg" alt="">
+        </button>
+      </div>
+      <ul class="dropdown_wrapper">
+        <li class="dropdown_menu">
+          <button class="dropdown_btn">
+            <span>Features</span>
+            <img class="arrows" src=" assets/svg/icon-arrow-down.svg" alt="">
+          </button>
+          <ul class="dropdowns" id="dropdownsOne">
+            <li class="dropdown">
+              <img src="assets/svg/icon-todo.svg" alt="">
+              <span>Todo List</span>
+            </li>
+            <li class="dropdown">
+              <img src="assets/svg/icon-calendar.svg" alt="">
+              <span>Calendar</span>
+            </li>
+            <li class="dropdown">
+              <img src="assets/svg/icon-reminders.svg" alt="">
+              <span>Reminders</span>
+            </li>
+            <li class="dropdown">
+              <img src="assets/svg/icon-planning.svg" alt="">
+              <span>Planning</span>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown_menu">
+          <button class="dropdown_btn">
+            <span>Company</span>
+            <img class="arrows" src=" assets/svg/icon-arrow-down.svg" alt="">
+          </button>
+          <ul class="dropdowns" id="dropdownsTwo">
+            <li class="dropdown">
+              <span>History</span>
+            </li>
+            <li class="dropdown">
+              <span>Our Team</span>
+            </li>
+            <li class="dropdown">
+              <span>Blog</span>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown_menu">Careers</li>
+        <li class="dropdown_menu">About</li>
+      </ul>
+      <div class="button_wrapper">
+        <button class="btn_login">Login</button>
+        <button class="btn_register">Register</button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="card">
+      <header>
+        <div class="hero_wrapper">
+          <picture>
+            <source media="(min-width:768px )" srcset="assets/images/image-hero-desktop.png">
+            <img src="assets/images/image-hero-mobile.png" alt="">
+          </picture>
+        </div>
+      </header>
+      <main class="content_wrapper">
+        <section class="content">
+          <p class="title">Make remote work</p>
+          <p class="description">
+            Get your team in sync, no matter your location. Streamline processes,
+            create team rituals, and watch productivity soar.
+          </p>
+          <button class="btn_learn">Learn more</button>
+        </section>
+
+        <section class="clients">
+          <div class="client">
+            <img src="assets/svg/client-databiz.svg" alt="">
+          </div>
+          <div class="client">
+            <img src="assets/svg/client-audiophile.svg" alt="">
+          </div>
+          <div class="client">
+            <img src="assets/svg/client-meet.svg" alt="">
+          </div>
+          <div class="client">
+            <img src="assets/svg/client-maker.svg" alt="">
+          </div>
+        </section>
+      </main>
+
+    </div>
+  </div>
+
+  <script src="src/js/main.js"></script>
+</body>
+
+</html>
