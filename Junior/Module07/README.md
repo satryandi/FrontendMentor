@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - Challenge : https://www.frontendmentor.io/challenges/intro-section-with-dropdown-navigation-ryaPetHE5
-- Solution : 
+- Solution : https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-xyB41dvI5S
 - Live Site : https://satryandi.github.io/FrontendMentor/Junior/Module07/index.html
 
 ## My process
