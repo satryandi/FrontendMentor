@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+:root {
+    --color-primary-400: hsl(193, 38%, 86%);
+    --color-primary-600: hsl(150, 100%, 66%);
+
+    --color-neutral-400: hsl(217, 19%, 38%);
+    --color-neutral-600: hsl(217, 19%, 24%);
+    --color-neutral-800: hsl(218, 23%, 16%);
+
+    --ff: 'Manrope', sans-serif;
+    --fs: 28px;
+    --fw800: 800;
+}
+
+/* CSS Reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: var(--ff);
+    -webkit-font-smoothing: antialiased;
+
+    min-height: 100vh;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+/* General Styling */
+body {
+    background-color: var(--color-neutral-800);
+}
+
+.container {
+    padding: 1rem;
+}
+
+.card {
+    position: relative;
+
+    background-color: var(--color-neutral-600);
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+.advice_number {
+    color: var(--color-primary-600);
+    font-size: 10px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+.quotes {
+    color: var(--color-primary-400);
+    font-size: 20px;
+    text-align: center;
+}
+
+body,
+.card,
+.top_wrapper,
+.bottom_wrapper,
+.dice_btn {
+    display: flex;
+}
+
+.card,
+.top_wrapper,
+.bottom_wrapper {
+    flex-direction: column;
+}
+
+body,
+.top_wrapper,
+.bottom_wrapper,
+.dice_btn {
+    align-items: center;
+}
+
+body,
+.top_wrapper,
+.bottom_wrapper,
+.dice_btn {
+    justify-content: center;
+}
+
+.card,
+.top_wrapper,
+.bottom_wrapper {
+    gap: 1rem;
+}
+
+.line_wrapper {
+    margin-bottom: 1.5rem;
+}
+
+.dice_btn {
+    background-color: var(--color-primary-600);
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+
+    position: absolute;
+    bottom: -30px;
+}
+
+.dice_btn:hover {
+    box-shadow: -1px 1px 88px 12px rgba(82, 255, 168, 1);
+    -webkit-box-shadow: -1px 1px 88px 12px rgba(82, 255, 168, 1);
+    -moz-box-shadow: -1px 1px 88px 12px rgba(82, 255, 168, 1);
+    transition: all ease-in-out 0.3s;
+}
+
+@media(min-width:768px) {
+    .card {
+        width: 50vw;
+    }
+}
