@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Challenge : https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db
-- Solution : 
+- Solution : https://www.frontendmentor.io/solutions/advice-generator-app-i4IBhJLNCD
 - Live Site : https://satryandi.github.io/FrontendMentor/Junior/Module08/index.html
 
 ## My process
