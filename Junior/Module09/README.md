@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Challenge : https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw
-- Solution : 
+- Solution : https://www.frontendmentor.io/solutions/time-tracking-dashboard-TVjYdrJkne
 - Live Site : https://satryandi.github.io/FrontendMentor/Junior/Module09/index.html
 
 ## My process
