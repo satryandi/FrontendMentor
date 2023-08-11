@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+:root {
+
+  --color-primary-blue: hsl(246, 80%, 60%);
+  --color-primary-blue-play: hsl(195, 74%, 62%);
+  --color-primary-red-work: hsl(15, 100%, 70%);
+  --color-primary-red-study: hsl(348, 100%, 68%);
+  --color-primary-green-exercise: hsl(145, 58%, 55%);
+  --color-primary-violet-social: hsl(264, 64%, 52%);
+  --color-primary-orange-selfcare: hsl(43, 84%, 65%);
+
+  --color-neutral-200: hsl(226, 43%, 10%);
+  --color-neutral-400: hsl(235, 46%, 20%);
+  --color-neutral-600: hsl(235, 45%, 61%);
+  --color-neutral-800: hsl(236, 100%, 87%);
+
+  --fs: 18px;
+  --ff: 'Rubik', sans-serif;
+  --fw300: 300;
+  --fw400: 400;
+  --fw500: 500;
+}
+
+/* CSS Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--ff);
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+/* General Styling */
