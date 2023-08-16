@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Challenge : https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX
-- Solution : 
+- Solution : https://www.frontendmentor.io/solutions/tip-calculator-app-Va1ewtiMPY
 - Live Site : https://satryandi.github.io/FrontendMentor/Junior/Module10/index.html
 
 ## My process
