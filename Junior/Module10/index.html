@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <title>Tip Calculator App</title>
+
+  <!-- Icon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="card">
+      <header class="header_wrapper">
+        <img src="assets/svg/logo.svg" alt="">
+      </header>
+
+      <main class="main_wrapper">
+        <form class="form_wrapper">
+          <section class="bill_wrapper">
+            <div class="label_wrapper">
+              <label for="bill">Bill</label>
+              <p class="error_message">Can't be zero</p>
+            </div>
+
+            <div class="input_wrapper">
+              <div class="logo_wrapper">
+                <img src="assets/svg/icon-dollar.svg" alt="">
+              </div>
+              <input type="text" id="bill" name="bill" placeholder="0.0">
+            </div>
+          </section>
+
+          <section class="tip_wrapper">
+            <div class="label_wrapper">
+              <label for="tip">Select Tip %</label>
+            </div>
+
+            <div class="btn_wrapper">
+              <p class="btn_tip tip">5%</p>
+              <p class="btn_tip tip">10%</p>
+              <p class="btn_tip tip btn_active">15%</p>
+              <p class="btn_tip tip">25%</p>
+              <p class="btn_tip tip">50%</p>
+              <input class="btn_tip" type="text" id="tip" name="tip" placeholder="Custom">
+            </div>
+          </section>
+
+          <section class="people_wrapper">
+            <div class="label_wrapper">
+              <label for="people">Number of People</label>
+              <p class="error_message">Can't be zero</p>
+            </div>
+
+            <div class="input_wrapper">
+              <div class="logo_wrapper">
+                <img src="assets/svg/icon-person.svg" alt="">
+              </div>
+
+              <input type="text" id="people" name="people" placeholder="1">
+            </div>
+          </section>
+        </form>
+
+        <footer class="output_wrapper">
+          <div class="wrappers">
+            <div class="amountTotal_wrapper">
+              <div class="title_wrapper">
+                <p class="title">Tip Amount</p>
+                <p class="desc">/ person</p>
+              </div>
+
+              <div class="value_wrapper">
+                <p class="value">$0.00</p>
+              </div>
+            </div>
+
+            <div class="amountTotal_wrapper">
+              <div class="title_wrapper">
+                <p class="title">Total</p>
+                <p class="desc">/ person</p>
+              </div>
+
+              <div class="value_wrapper">
+                <p class="value">$0.00</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn_reset">
+            Reset
+          </button>
+        </footer>
+      </main>
+    </div>
+  </div>
+
+  <script src="src/js/main.js"></script>
+</body>
+
+</html>
