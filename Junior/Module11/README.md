@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - Challenge : https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef
-- Solution : 
+- Solution : https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-56ShSj9mMk
 - Live Site : https://satryandi.github.io/FrontendMentor/Junior/Module11/index.html
 
 ## My process
