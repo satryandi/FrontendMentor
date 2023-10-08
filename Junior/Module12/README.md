@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Challenge : https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef
-- Solution : https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-56ShSj9mMk
+- Challenge : https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP
+- Solution : https://www.frontendmentor.io/solutions/blogr-landing-page--8O4Ccz1RG
 - Live Site : https://satryandi.github.io/FrontendMentor/Junior/Module12/index.html
 
 ## My process
