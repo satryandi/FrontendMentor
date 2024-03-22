@@ -127,7 +127,7 @@ body {
   /* height: max-content; */
   min-height: max-content;
   border-radius: 1.4rem;
-  background-image: url(../svg/bg-pattern-mobile.svg);
+  background-image: url(../images/bg-pattern-mobile.svg);
   background-position-x: center;
   background-repeat: no-repeat;
   background-size: 12rem;
@@ -188,7 +188,7 @@ body {
 
 .faq_summary:after {
   display: inline-block;
-  content: url(assets/svg/icon-arrow-down.svg);
+  content: url(../images/icon-arrow-down.svg);
 }
 
 .faq_detail[open] > .faq_summary {
@@ -197,7 +197,7 @@ body {
 
 .faq_detail[open] .faq_summary:after {
   display: inline-block;
-  content: url(assets/svg/icon-arrow-down.svg);
+  content: url(../images/icon-arrow-down.svg);
   transform: scaleY(-1);
 }
 
@@ -214,8 +214,8 @@ body {
 
 @media (min-width: 1024px) {
   .card {
-    background-image: url(../svg/bg-pattern-desktop.svg),
-      url(../svg/illustration-woman-online-desktop.svg);
+    background-image: url(../images/bg-pattern-desktop.svg),
+      url(../images/illustration-woman-online-desktop.svg);
     background-position: left -27.5rem bottom -6rem, left -15% bottom 5rem;
     background-repeat: repeat-y, no-repeat;
     background-size: 92%, 50%;

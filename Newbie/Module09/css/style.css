@@ -97,10 +97,8 @@ h3 {
 }
 
 body {
-  background-image: url(./svg/bg-pattern-top.svg),
-    url(./svg/bg-pattern-bottom.svg);
-  background-repeat: no-repeat, no-repeat;
-  background-position: right 50vw bottom 50vh, left 50vw top 50vh;
+  background: url(../images/bg-pattern-top.svg) right 50vw bottom 50vh no-repeat,
+    url(../images/bg-pattern-bottom.svg) left 50vw top 50vh no-repeat;
   background-color: var(--first-color);
   color: var(--fourth-color);
   font-family: var(--ff-primary);
