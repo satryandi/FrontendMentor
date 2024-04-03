@@ -1,6 +1,6 @@
 # Frontend Mentor - Crowdfunding product page solution
 
-![Crowdfunding Product Page](images/desktop-preview.jpg)
+![Crowdfunding Product Page](./images/desktop-preview.jpg)
 
 ## Table of contents
 
@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Challenge : https://www.frontendmentor.io/challenges/crowdfunding-product-page-7uvcZe7ZR
-- Solution : 
+- Solution : https://www.frontendmentor.io/solutions/crowdfunding-product-page-u5djrN7jwP
 - Live Site : https://satryandi.github.io/FrontendMentor/Junior/Module13/index.html
 
 ## My process
